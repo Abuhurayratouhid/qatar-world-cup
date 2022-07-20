@@ -37,20 +37,31 @@ body{
     margin-bottom: 111px;
     margin-left: 106px;
 }
-.right img{
-    width: 581px;
-    height: 613px;
-}
+
 /* animation ------- */
+
 
 @keyframes sliding {
     from{
-        background-color:#dd0000ae ;
+        width: 581px;
+        height: 613px;
     }
     to{
-        background-color: rgba(0, 128, 0, 0.659);
+        width: 300px;
+        height: 300px;
+        
     }
 }
+.right img{
+    width: 581px;
+    height: 613px;
+    animation: sliding  5s ease-in-out 0.5s infinite alternate;
+    animation-play-state: running;
+    
+}
+
+
+
 
 .btn1{
     padding: 16px 25px;
@@ -59,8 +70,7 @@ body{
     font-size: 20px;
     color: white;
     margin-top: 30px;
-    animation: sliding  0.5s ease-in-out 0.5s infinite alternate;
-    animation-play-state: running;
+    
    
 }
 .fa-greater-than{
@@ -206,6 +216,7 @@ footer{
     margin-top: 21px;
     width: 233px;
     height: 245px;
+    animation: none;
 }
 .title-discribe{
     font-size: 14px;
