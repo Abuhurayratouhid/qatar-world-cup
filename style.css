@@ -210,7 +210,8 @@ footer{
 .title-discribe{
     font-size: 14px;
     width: 258px;
-    height: 48px;
+    height: 40px;
+    margin-bottom: 25px;
 }
 .btn1{
     padding: 8px 12px;
@@ -218,7 +219,7 @@ footer{
     border-radius: 5px;
     font-size: 20px;
     color: white;
-    margin-bottom: 21px;
+    margin-bottom: 10px;
    
 }
 .center{
@@ -262,6 +263,10 @@ footer{
 .big{
     text-align: center;
     margin-top: 30px;
+}
+.btn1{
+    padding: 5px 5px;
+    margin-top: 10px;
 }
 }
 
