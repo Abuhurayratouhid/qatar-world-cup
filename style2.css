@@ -8,9 +8,24 @@ body{
     
 }
 /* top banner style start from here -------- */
+
+/* animation ------ */
+
+@keyframes sliding {
+    from{
+        color: white ;
+    }
+    to{
+        color: rgba(0, 128, 0, 0.816);
+    }
+}
+
+
 .big-title{
     font-size: 70px;
     margin-bottom: 20px;
+    animation: sliding  1s ease-in-out 0.5s infinite alternate;
+    animation-play-state: running;
 }
 .title-discribe{
     font-size: 16px;
@@ -41,6 +56,11 @@ body{
     width: 581px;
     height: 613px;
 }
+
+
+
+
+
 .btn1{
     padding: 16px 25px;
     background-color: #DD0000;
@@ -48,6 +68,8 @@ body{
     font-size: 20px;
     color: white;
     margin-top: 30px;
+    /* animation: sliding  0.7s ease-in-out 0.5s infinite alternate; */
+    /* animation-play-state: running; */
    
 }
 .fa-greater-than{

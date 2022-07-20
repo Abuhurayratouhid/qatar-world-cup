@@ -41,6 +41,17 @@ body{
     width: 581px;
     height: 613px;
 }
+/* animation ------- */
+
+@keyframes sliding {
+    from{
+        background-color:#dd0000ae ;
+    }
+    to{
+        background-color: rgba(0, 128, 0, 0.659);
+    }
+}
+
 .btn1{
     padding: 16px 25px;
     background-color: #DD0000;
@@ -48,6 +59,8 @@ body{
     font-size: 20px;
     color: white;
     margin-top: 30px;
+    animation: sliding  0.5s ease-in-out 0.5s infinite alternate;
+    animation-play-state: running;
    
 }
 .fa-greater-than{
